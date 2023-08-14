@@ -1,7 +1,3 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-
 class Square extends React.Component {
     render() {
         return (
@@ -14,7 +10,7 @@ class Square extends React.Component {
 
 class Board extends React.Component {
     renderSquare(i) {
-        return <Square value={i}/>;
+        return <Square value={i} />;
     }
 
     render() {
